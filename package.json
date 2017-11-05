@@ -1,0 +1,18 @@
+{
+  "name": "projectantydote",
+  "version": "1.0.0",
+  "description": "Examines Facebook Posts/Comments to determine how toxic they are",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "author": "Neil Davis",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "request": "^2.83.0"
+  }
+}
